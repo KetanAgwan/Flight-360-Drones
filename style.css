@@ -43,7 +43,7 @@ nav > .logo > img{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 18px;
 }
 .nav-options > li{
     height: 50%;
@@ -55,11 +55,12 @@ nav > .logo > img{
     cursor: pointer;
 }
 .nav-options-2{
-    width: 15%;
+    width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5px;
 }
 .nav-options-2 > li{
     height: 50%;
@@ -77,6 +78,9 @@ nav > .logo > img{
     font-size: 18px;
     background: transparent;
     border: none;
+    box-sizing: border-box;
+    padding: 0 5px;
+    cursor: pointer;
 }
 
 
@@ -121,6 +125,16 @@ nav > .logo > img{
 }
 .social-links > li{
     cursor: pointer;
+}
+.social-links > li > a{
+    text-decoration: none;
+    color: black;
+}
+.social-links > li > a:visited{
+    color: black;
+}
+.social-links > li > a:active{
+    color: black;
 }
 .slider{
     height: 100%;
@@ -300,6 +314,7 @@ nav > .logo > img{
     background: rgb(240, 236, 236);
     overflow: hidden;
     box-sizing: border-box;
+    margin: 50px 0;
 }
 .logos > div{
     height: 100%;
@@ -332,6 +347,7 @@ nav > .logo > img{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 50px 0;
 }
 .container-1-img{
     height: 100%;
@@ -424,6 +440,7 @@ nav > .logo > img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 50px 0;
 }
 
 .container-2-text{
@@ -511,6 +528,7 @@ nav > .logo > img{
 .testimonial-container{
     height: 90vh;
     width: 100vw;
+    margin: 50px 0;
 }
 
 .testimonial-container > h3{
@@ -607,6 +625,8 @@ nav > .logo > img{
 .cards-container{
     height: 120vh;
     width: 100vw;
+    margin: 50px 0;
+
 }
 
 .cards-container > h3{
@@ -702,4 +722,135 @@ nav > .logo > img{
 .card h3{
     font-size: 15px;
     font-weight: 600;
+}
+
+/* this is for footer  */
+.footer-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.footer-upper{
+    height: 40%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.footer-upper > h1{
+    height: auto;
+    overflow: hidden;
+    font-size: 70px;
+    font-weight: 200;
+    color: var(--regulaerColor);
+}
+.footer-upper > h1 > span{
+    font-weight: 900;
+}
+
+.footer-upper > div{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-upper > div > input{
+    height: 40%;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--regulaerColor);
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.footer-upper > div > button{
+    height: 50%;
+    width: 20%;
+    border: none;
+    color: white;
+    background:var(--regulaerColor) ;
+    font-size:16px ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--normalTransition);
+}
+
+.footer-upper > div > button:hover{
+    opacity: .9;
+}
+
+.footer-lower{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-lower > div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.footer-lower > div:nth-child(2){
+    height: 70%;
+    width: 15%;
+}
+.footer-lower > div:nth-child(3){
+    width: 15%;
+    height: 70%;
+}
+.footer-lower > div:nth-child(4){
+    width: 15%;
+    height: 70%;
+}
+.footer-lower > div > h3{
+    color: var(--regulaerColor);
+}
+.footer-lower > div > h4{
+    color: var(--secondaryColor);
+}
+.footer-lower > div:nth-child(3)>h4{
+    cursor: pointer;
+}
+.footer-lower > div:nth-child(4)>h4{
+    cursor: pointer;
+}
+.footer-lower > div > h1{
+    color: var(--regulaerColor);
+}
+.footer-lower > div > h1 > span{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 5px ;
+    background:var(--regulaerColor) ;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.footer{
+    height:10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer > div > span{
+    color: red;
 }
