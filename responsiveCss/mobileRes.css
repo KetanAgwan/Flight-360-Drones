@@ -30,6 +30,9 @@
     .nav-options-2 {
         width: 60%;
         font-size: 15px;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
     }
 
     .nav-options-2>li>i {
@@ -70,12 +73,12 @@
     .slider-text {
         height: 50%;
         width: 100%;
+        font-size: 15px;
     }
 
     .slider-text-box {
         height: 60%;
         width: 80%;
-        font-size: 17px;
         text-align: center;
         padding-left: 0;
         box-sizing: border-box;
@@ -98,7 +101,7 @@
     }
 
     .slider-img-box>img {
-        height: 90%;
+        height: 80%;
         width: 90%;
     }
 
@@ -118,7 +121,7 @@
     .slider-btns-box>button {
         height: 50%;
         width: 40%;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .slider-btns-box>button:nth-child(2) {
@@ -198,48 +201,229 @@
         flex-wrap: wrap-reverse;
         margin: 0;
     }
-    .container-2-text{
+
+    .container-2-text {
         height: 60%;
         width: 100%;
         padding-left: 0;
         text-align: center;
+        align-items: center;
     }
 
-    .container-2-img{
+    .container-2-img {
         height: 40%;
         width: 100%;
     }
 
-    .container-2-text > h1{
+    .container-2-text>h1 {
         font-size: 25px;
         width: 95%;
     }
-    .container-2-text > h3{
+
+    .container-2-text>h3 {
         width: 90%;
         font-size: 15px;
     }
-    .container-2-text > div{
+
+    .container-2-text>div {
         height: 40%;
         width: 100%;
         justify-content: space-evenly;
     }
-    .container-2-text-list{
+
+    .container-2-text-list {
         height: 100%;
         width: 40%;
-       text-align: center;
+        text-align: center;
 
     }
-    .container-2-text-list > h3{
-        font-size:15px;
+
+    .container-2-text-list>h3 {
+        font-size: 15px;
     }
-    .container-2-text-list > h4{
-        font-size:15px;
+
+    .container-2-text-list>h4 {
+        font-size: 15px;
     }
-    .container-2-text > button{
+
+    .container-2-text>button {
         font-size: 25px;
         font-weight: 700;
-        transform: translateX(100%);
     }
 
+    /* thisi is for testimonials  */
+
+    .testimonial-container {
+        height: 150vh;
+        width: 100vw;
+        margin: 0 0;
+    }
+
+    .testimonial-container>h3 {
+        height: 10%;
+        width: 100%;
+        justify-content: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .testimonial-container>h1 {
+        height: 10%;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 80%;
+    }
+
+    .quote-box {
+        height: 100px;
+        width: 100px;
+    }
+
+    .swiper-slide {
+        height: 30%;
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .swiper-slide>h3 {
+        height: 50%;
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .swiper-slide>div {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-box {
+        height: 50px;
+        width: 50px;
+    }
+
+    .name-box>span {
+        font-size: 15px;
+    }
+
+
+    /* this is for cards container  */
+    .cards-container {
+        height: 300vh;
+        width: 100vw;
+        margin: 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cards-container>h3 {
+        height: 2%;
+        padding-left: 0px;
+        justify-content: center;
+    }
+
+    .cards-container>h1 {
+        height: 6%;
+        width: 90%;
+        justify-content: center;
+        font-size: 25px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .cards-container>h2 {
+        height: 5%;
+        width: 90%;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .cards-div {
+        height: 87%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .card {
+        height: 30%;
+        width: 90%;
+    }
+
+    /* this is for footer  */
+    .footer-container {
+        height: 150vh;
+        width: 100vw;
+        margin-top:20px;
+    }
+    .footer-upper{
+        height: 20%;
+        width: 90%;
+    }
+    .footer-upper > h1{
+        height: auto;
+        overflow: hidden;
+        font-size: 40px;
+        text-align: center;
+    }
+    .footer-upper > div{
+        height: 20%;
+        width: 100%;
+
+    }
+    .footer-upper > div > input{
+        height: 20%;
+        width: 60%;
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .footer-upper > div > button{
+        height: 80%;
+        width: 25%;
+        font-size:15px ;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-lower{
+        height: 70%;
+        width: 100%;
+    }
+    .footer-lower > div:nth-child(2){
+        height: 25%;
+        width: 90%;
+    }
+    .footer-lower > div:nth-child(3){
+        width: 90%;
+        height: 25%;
+    }
+    .footer-lower > div:nth-child(4){
+        width: 90%;
+        height: 25%;
+    }
+
+    .footer{
+        font-size: 15px;
+    }
+    .footer > div{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+    
 
 }
