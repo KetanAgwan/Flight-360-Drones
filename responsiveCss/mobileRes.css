@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+    :root{
+        --normalFont-Size:15px;
+        --normalTransition : all .3s ease;
+        --headerFontSize : 35px;
+        --secondaryHeaderFontSize:12px;
+        --secondaryColor: rgb(131, 128, 128);
+        --regulaerColor:rgb(61, 59, 59);
+    }
+
+    nav{
+        width: 100vw;
+        height:8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    nav > .logo{
+        width: 30%;
+        gap: 5px;
+        font-size: 15px;
+    }
+    nav > .logo > img{
+        height: 55%;
+        width: auto;
+    }
+    
+}

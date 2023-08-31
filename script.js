@@ -8,4 +8,8 @@ setInterval(()=>{
     if(counter > 3) counter =1;
 },10000)
 
-console.log(document.getElementById("radio1"));
+
+AOS.init({
+    offset: 200,
+    duration: 1000,
+  });

@@ -356,6 +356,7 @@ nav > .logo > img{
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 .container-1-img > img{
     height: 70%;
@@ -553,6 +554,7 @@ nav > .logo > img{
     align-items: center;
     justify-content: space-evenly;
     position: relative;
+    overflow: hidden;
 }
 .quote-box{
     position: absolute;
@@ -663,6 +665,7 @@ nav > .logo > img{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .card{
