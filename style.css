@@ -125,6 +125,7 @@ nav > .logo > img{
 }
 .social-links > li{
     cursor: pointer;
+    list-style-type: disc;
 }
 .social-links > li > a{
     text-decoration: none;
@@ -347,6 +348,7 @@ nav > .logo > img{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 50px 0;
 }
 .container-1-img{
@@ -437,6 +439,7 @@ nav > .logo > img{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     background-image: url("images/Vector 1.png");
     background-position: center;
     background-size: contain;
@@ -776,6 +779,7 @@ nav > .logo > img{
     font-size: 20px;
     box-sizing: border-box;
     padding: 20px 10px;
+    background: transparent;
 }
 
 .footer-upper > div > button{

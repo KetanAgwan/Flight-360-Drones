@@ -1,0 +1,234 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    width: 100vw;
+    height: 10vh;
+  }
+
+  nav>.logo {
+    height: 100%;
+    width: 30%;
+    gap: 5px;
+    font-size: 15px;
+  }
+
+  nav>.logo>img {
+    height: 45%;
+    width: 20%;
+  }
+
+  .nav-options {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+  }
+
+  .nav-options-2 {
+    width: 30%;
+  }
+
+  .nav-options-2>li {
+    height: 50%;
+    width: 25%;
+  }
+
+
+  /* landing page starts here */
+
+  .landing-header {
+    height: 20vh;
+    font-size: 25px;
+  }
+
+  .slider-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .social-links {
+    height: 30%;
+    top: 25%;
+    justify-content: space-evenly;
+  }
+
+  .slider-slide {
+    height: 100%;
+    width: 33.33%;
+    flex-wrap: wrap-reverse;
+  }
+
+  .slider-text-box {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .slider-img-box {
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logos {
+    height: 15vh;
+  }
+
+  .logos>div>img {
+    height: 60%;
+  }
+
+  /* this is for container 1  */
+  .container-1 {
+    height: 120vh;
+  }
+
+  .container-1-img {
+    height: 50%;
+    width: 100%;
+  }
+
+  .container-1-img>img {
+    height: 80%;
+    width: 100%;
+  }
+
+  .container-1-text {
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  /* this is for container 2  */
+
+  .container-2 {
+    height: 120vh;
+    width: 100vw;
+    margin: 50px 0;
+  }
+
+  .container-2-text {
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    padding-left: 00px;
+  }
+
+  .container-2-img {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonial-container {
+    height: 90vh;
+    width: 100vw;
+    margin: 50px 0;
+  }
+
+  .testimonial-container>h3 {
+    height: 10%;
+  }
+
+  .testimonial-container>h1 {
+    width: 80%;
+    height: 15%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 70%;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+
+  .swiper-slide {
+    height: 48%;
+    width: 45%;
+  }
+
+  .swiper-slide>div {
+    width: 90%;
+
+  }
+  /* this is for cards container  */
+.cards-container{
+  height: 160vh;
+  width: 100vw;
+  margin: 50px 0;
+}
+.cards-container > h3{
+  height: 5%;
+}
+.cards-container > h1{
+  height: 14%;
+  width: 95%;
+}
+.cards-container > h2{
+  height: 5%;
+  width: 80%;
+}
+.cards-div{
+  height: 75%;
+  width: 100%;
+}
+
+.card{
+  height: 45%;
+  width: 45%;
+}
+
+/* this is for footer  */
+.footer-container{
+  height: 80vh;
+}
+.footer-upper{
+  height: 30%;
+  width: 90%;
+  gap: 30px;
+}
+
+.footer-upper > h1{
+  height: auto;
+  width: 100;
+  text-align: center;
+  font-size: 60px;
+}
+.footer-lower{
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-lower > div{
+  width: 35%;
+  height: 30%;
+}
+.footer-lower > div:nth-child(2){
+  height: 30%;
+  width: 35%;
+}
+.footer-lower > div:nth-child(3){
+  height: 30%;
+  width: 35%;
+}
+.footer-lower > div:nth-child(4){
+  height: 30%;
+  width: 35%;
+}
+
+
+}
