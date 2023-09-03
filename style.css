@@ -108,7 +108,7 @@ nav > .logo > img{
     position: relative;
 }
 .social-links{
-    height:70%;
+    height:50%;
     position: absolute;
     display: flex;
     justify-content: space-evenly;
